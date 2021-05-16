@@ -1,6 +1,3 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
@@ -17,4 +14,4 @@ You will also see any lint errors in the console.
 ### `add image`
 Add pictures to the public\img\
 ### `timer`
-To run the slider at intervals, change to App.js ###`interval: true` and enter the time  ###`time: your slide time`
+To run the slider at intervals, change to App.js `interval: true` and enter the time  `time: your slide time`
