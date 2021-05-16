@@ -1,0 +1,46 @@
+.slider {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+.slide-img {
+  position: relative;
+  display: flex;
+  transition: transform 0.5s;
+  transform: translate3d(0px, 0px, 0px);
+}
+.btn {
+  height: 10%;
+  z-index: 10;
+  align-self: center;
+}
+.btn-rigth {
+  margin-left: 30%;
+}
+.btn-left {
+  margin-right: 30%;
+}
+.btn:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+.wraper-slider {
+  max-width: 80%;
+  overflow: hidden;
+}
+.slide {
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn-wraper {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
